@@ -1,5 +1,6 @@
 # Hotel React App
 
+"Actualmente me encuentro trabajando en este proyecto"
 
 ## Available Scripts
 
@@ -12,4 +13,6 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador
 
 The pagina actualiza los cambios y muestra errores automáticamente.
 
-Actualmente solo cuenta con el Fronted.
+### `Backend`
+https://github.com/Alvaro1599/backendHotel.git
+
