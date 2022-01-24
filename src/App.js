@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import Inicio from './pages/inicio/Inicio';
 import Mantenimiento from './pages/mantenimiento/Mantenimiento';
 import Ingreso from './pages/ingreso/Ingreso';
+import Clientes from './pages/clientes/Clientes';
+import Habitacion from './pages/habitaciones/Habitacion';
 function App() {
 	return (
 		<div className="App w-full h-screen flex">
@@ -14,6 +16,8 @@ function App() {
 					<Route path="*" index element={<Inicio />} />
 					<Route path="/Mantenimiento" element={<Mantenimiento />} />
 					<Route path="/Ingreso" element={<Ingreso />} />
+					<Route path="/Clientes" element={<Clientes />} />
+					<Route path="/Habitaciones" element={<Habitacion />} />
 				</Routes>
 			</div>
 		</div>

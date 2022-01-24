@@ -10,16 +10,12 @@ function Nav() {
 			if (x.name === 'Mantenimiento') {
 				return (
 					<div
-						className="text-white w-3/4   flex flex-wrap p-4 justify-between items-center"
+						className="text-white w-3/4 cursor-pointer animate-down flex flex-wrap p-4 justify-between items-center"
 						onClick={() => setVisibility(!visibility)}
 					>
 						<span class="material-icons w-2/12  ">{x.icon}</span>
 						<h1 className=" pl-4 w-10/12">{x.name}</h1>
-						<div
-							className={` transition-transform  ease-in-out delay-700  text-sm  flex   ${visibility
-								? 'flex'
-								: 'hidden'} flex-col  mt-2`}
-						>
+						<div className={`text-sm  flex ${visibility ? 'flex' : 'hidden'} flex-col  mt-2`}>
 							<Link to={`/${'Clientes'}`} className="p-2 ml-10">
 								Clientes
 							</Link>

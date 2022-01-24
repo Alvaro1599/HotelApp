@@ -10,7 +10,14 @@ module.exports = {
 				bgPurpleMid: '#8D7AAA',
 				bgBlue: '#070A35'
 			},
-			Keyframes: {}
+			Keyframes: {
+				down: {
+					'0%, 100%': { transform: 'rotate(-3deg)' }
+				}
+			},
+			animation: {
+				down: 'down 4s linear infinite'
+			}
 		}
 	},
 	plugins: []
